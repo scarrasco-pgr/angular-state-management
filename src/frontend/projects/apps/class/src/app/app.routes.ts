@@ -127,7 +127,7 @@ const baseRoutes: AppRoutes = [
   {
     path: 'movie-admin',
     loadChildren: () =>
-      import('../../domains/movie-admin/movie-admin.routes').then((m) => m.movieAddminRoutes),
+      import('../../domains/movies-admin/movie-admin.routes').then((m) => m.movieAddminRoutes),
     data: {
       title: 'Movie Admin',
       linkText: 'Movie Admin',
